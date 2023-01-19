@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Currency Converter App</title>
+</head>
+
+<body>
+    <div id="container">
+        <h1 id="title">Currency Converter</h1>
+        <div id="puts">
+            <div id="input_div" class="put">
+                <input type="number" id="amount_from">
+                <div id="div-select">
+                    <select class="currency" id="currency_from"></select>
+                </div>
+            </div>
+            <div id="output_div" class="put">
+                <input type="number" id="output" disabled>
+                <div id="div-select">
+                    <select class="currency" id="currency_to"></select>
+                </div>
+            </div>
+        </div>
+        <div id="submit">
+            <button id="convert">Convert</button>
+        </div>
+    </div>
+</body>
+<script src="./main.js"></script>
+
+</html>

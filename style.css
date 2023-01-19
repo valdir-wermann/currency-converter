@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: 'Lora', serif;
+    color: #dff9fb;
+}
+
+html,
+body,
+#container {
+    width: 100%;
+    height: 100%;
+    background-color: #f0932b;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#title {
+    position: absolute;
+    top: 1em;
+}
+
+.put {
+    background-color: #686de0;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 4px;
+}
+
+.put>input {
+    background-color: #dff9fb;
+    color: #535c68;
+    font-size: 1em;
+    padding: .5em;
+    border-radius: 4px;
+}
+
+#div-select {
+    margin-top: .6em;
+    width: 193.5px;
+    height: 36.5px;
+    overflow: hidden;
+}
+
+#div-select select {
+    width: 193.5px;
+    height: 36.5px;
+    font-size: 1em;
+    background-color: #dff9fb;
+    color: #535c68;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#convert {
+    padding: 1em;
+    background-color: #dff9fb;
+    color: #535c68;
+    font-size: 1.2em;
+    border-radius: 4px;
+    cursor: pointer;
+}
